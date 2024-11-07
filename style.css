@@ -1,29 +1,120 @@
-
-/* Commentaire du code ignoré avec slash etoile */
-
-
-
-/* Sélecteur d'élément */
-h1 {
-    color: red;  /* mettre le niveau de titre 1 en rouge*/
-    font-size: 60px;
-    text-align: center;
-  
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e2eafc, #f9f4ef);
+    color: #333;
 }
 
-/* Sélecteur de classe */
-.important {
-    font-weight: bold;  /*met en gras*/
-}
-
-/* Sélecteur d'ID */
-#citation {
+.container {
+    max-width: 900px;
+    margin: 0 auto;
     padding: 20px;
-    color: grey;
 }
 
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
-p {
-    background-color: #FBF8F6;
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
 
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experience-section {
+    margin-bottom: 30px;
+}
+
+.experience-slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+}
+
+.experience-card {
+    min-width: 280px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.skills-section {
+    margin-bottom: 30px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.skill img {
+    width: 50px;
+    height: 50px;
+}
+
+.skill p {
+    margin: 5px 0 0;
+    text-align: center;
+}
+
+.languages-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.languages .language {
+    text-align: center;
+}
+
+.languages .language img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hobbies-section {
+    text-align: center;
+}
+
+.hobbies-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hobbies-section li {
+    font-size: 1.1em;
+    margin: 5px 0;
 }
