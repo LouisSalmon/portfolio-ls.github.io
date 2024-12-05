@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     background: rgba(0, 0, 0, 0.8);
@@ -22,7 +22,7 @@ body {
     margin-bottom: 20px;
 }
 
-.profile-section .profile {
+.profile-section .horizontal-align {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,7 +59,7 @@ h2 {
 }
 
 .carousel-item {
-    flex: 0 0 250px;
+    flex: 0 0 300px;
     background-color: #333;
     padding: 15px;
     border-radius: 8px;
@@ -71,14 +71,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-.languages {
+/* Alignments for languages and hobbies */
+.horizontal-align {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-.language {
-    text-align: center;
 }
 
 .language img {
@@ -86,15 +83,14 @@ h2 {
     height: 50px;
     border-radius: 50%;
     margin-bottom: 5px;
+    border: 2px solid #fff;
 }
 
-.hobbies-section ul {
+.hobbies {
     list-style: none;
+    display: flex;
+    gap: 20px;
     padding: 0;
-    text-align: center;
-}
-
-.hobbies-section li {
+    justify-content: center;
     font-size: 1.2em;
-    margin: 5px 0;
 }
