@@ -24,9 +24,6 @@ nav {
     background: #2e3e4b;
     color: #fff;
     padding: 10px 0;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -60,6 +57,9 @@ nav ul li a:hover {
 header {
     text-align: center;
     padding: 20px;
+    background: #2e3e4b;
+    color: #fff;
+    margin-bottom: 10px;
 }
 
 .header-content h1 {
@@ -70,7 +70,7 @@ header {
 .header-content p {
     margin: 10px 0 0;
     font-size: 1.4em;
-    color: #2e3e4b;
+    color: #d9d9d9;
 }
 
 /* Sections */
